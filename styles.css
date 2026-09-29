@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #1a5276;
+}
+
+.col-destacada {
+    background-color: #f9e79f;
+}
