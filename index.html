@@ -69,7 +69,13 @@
     <p>La etiqueta embed es un elemento de autocierre que permite incrustar recursos interactivos o documentos externos, como archivos PDF.</p>
     <embed src="lenguaje_marcas1.pdf" type="application/pdf" width="500" height="300">
 
-    
+    <h2>Etiqueta param</h2>
+    <p>La etiqueta param se utilizaba dentro de un elemento object para pasar parámetros de configuración clave-valor a complementos externos.</p>
+    <p>Por qué no tiene efecto visible: Actualmente está obsoleta en HTML5 y los navegadores modernos la ignoran porque los plugins antiguos como Flash o Java Applets han sido eliminados por motivos de seguridad y rendimiento.</p>
+    <object data="lenguaje_marcas1.pdf" type="application/pdf" width="300" height="150">
+        <param name="autoplay" value="false">
+        <p>Tu navegador no soporta el objeto.</p>
+    </object>
 
 </body>
 </html>
